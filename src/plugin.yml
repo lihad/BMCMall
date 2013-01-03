@@ -1,0 +1,7 @@
+name: BMCMall
+main: lihad.BMCMall.BMCMall
+version: 1.0
+commands:
+  mall:
+    description: Invalid Command
+    usage: Invalid Command
