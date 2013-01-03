@@ -67,6 +67,8 @@ public class BMCMall extends JavaPlugin implements Listener {
 		this.getServer().getPluginManager().registerEvents(this, this);
 		setupPermissions();
 		setupEconomy();
+		
+		load();
 
 		this.getServer().getScheduler().scheduleAsyncRepeatingTask(this, new Runnable(){
 			public void run() {
